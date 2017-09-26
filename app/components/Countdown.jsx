@@ -1,15 +1,11 @@
 //call react library
 var React = require('react');
-var Nav = require('Nav');
+var Clock = require('Clock');
 
 var Countdown = (props) => {
   return (
     <div>
-      <div>
-        <div>
-          <p>Countdown.jsx</p>
-        </div>
-      </div>
+      <Clock totalSeconds={129}/>
     </div>
   );
 }

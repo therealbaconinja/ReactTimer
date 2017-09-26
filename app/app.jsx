@@ -8,6 +8,7 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 var Countdown = require('Countdown');
 var Timer = require('Timer');
+var Clock = require('Clock');
 
 // Load Foundation or Bootstrap
 //css! loader chained with style loader
